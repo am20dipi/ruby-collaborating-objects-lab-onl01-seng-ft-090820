@@ -34,7 +34,7 @@ class Artist
     @songs.each do |song|
       puts song.name
     end
-    print song.name
+    print @songs
   end
   
   
